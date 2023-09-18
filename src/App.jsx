@@ -1,7 +1,19 @@
+import Navbar from './components/Navbar'
+import Hero from './components/Hero'
+import About from './components/About'
+import Tours from './components/Tours'
+import Services from './components/Services'
+import Footer from './components/Footer'
+
 const App = () => {
 	return (
 		<>
-			<h1>Tha app</h1>
+			<Navbar />
+			<Hero />
+			<About />
+			<Services />
+			<Tours />
+			<Footer />
 		</>
 	)
 }
